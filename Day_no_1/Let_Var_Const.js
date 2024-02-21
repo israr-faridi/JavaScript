@@ -6,6 +6,10 @@ let accountState;
 
 // accountId=999; // not Allowed
 
+/* 
+Prefer not to use var
+because of issue in block scope and functional scope
+*/
 accountEmail="Nana@gmail.com"
 accountPassword="6699"
 accountCity="Lahore"
