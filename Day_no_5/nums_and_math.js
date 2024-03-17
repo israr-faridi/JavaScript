@@ -21,15 +21,25 @@
 
 // ++++++++++++++++++++++++++++++++ MATHS +++++++++++++++++++++++++++++++++
 
-console.log(Math);
+// console.log(Math);
 
-// // absolute value
-console.log(Math.abs(-4));
-// // Rounde value
-console.log(Math.round(12.532));
-// // Floor Value
-console.log(Math.floor(12.232));
-// // Ceil Value
-console.log(Math.ceil(12.432));
+// // // absolute value
+// console.log(Math.abs(-4));
+// // // Rounde value
+// console.log(Math.round(12.532));
+// // // Floor Value
+// console.log(Math.floor(12.232));
+// // // Ceil Value
+// console.log(Math.ceil(12.432));
 
 
+// // Math Random
+
+console.log(Math.random());
+console.log((Math.random() * 10) + 1);
+console.log(Math.floor((Math.random() * 10) + 1));
+
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
