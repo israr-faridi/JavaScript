@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Op ELement</title>
+</head>
+
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(newLanguage) {
+        const li = document.createElement("li");
+        li.innerHTML = `${newLanguage}`
+        document.querySelector(".language").appendChild(li)
+    }
+    addLanguage("Python")
+
+    function addOpLanguage(addOpLanguage) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(`${addOpLanguage}`))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOpLanguage("Node")
+
+
+
+
+
+
+
+
+    // Editt in js 
+    const secondlang = document.querySelector("li:nth-child(2)")
+    console.log(secondlang)
+    // secondlang.innerHTML="mgo"
+    const newli = document.createElement("li")
+    newli.textContent = "mojo"
+    secondlang.replaceWith(newli)
+
+
+    // edit 
+    const firstlang = document.querySelector("li:first-child")
+    firstlang.outerHTML = `<li>TypeScript</li>`
+
+
+
+    // remove 
+    const lastlang = document.querySelector("li:last-child")
+lastlang.remove()
+</script>
+
+</html>
