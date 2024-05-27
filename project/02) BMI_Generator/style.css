@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    background-color: #212121;
+    color: #fff;
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin-top: 2%;
+}
+
+form {
+    margin-top: 2%;
+}
+
+form p{
+    margin-bottom: 10px;
+}
+
+form input:focus{
+    outline: none;
+}
+
+button{
+    margin: 15px 0;
+}
+
+#reuslt{
+    margin-top: 10px;
+}
+#weight-guide{
+    margin-top: 30px;
+}
+#weight-guide h3{
+    margin-bottom: 10px;
+}
