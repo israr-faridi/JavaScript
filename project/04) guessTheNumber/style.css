@@ -37,6 +37,10 @@ form {
     margin-top: 40px;
     text-align: center;
 }
+/* #guessField{
+    pointer-events:none;
+    color: #efefee;;
+} */
 
 input {
     display: flex;
